@@ -1,3 +1,9 @@
+#Mole classification system with TensorFlow 
+
+##Summary
+
+The goal of this project is to provide an application of TensorFlow neural networks into HealthCare. Over the past three decades, more people have had skin cancer than all other cancers combined(*Stern, RS. Prevalence of a history of skin cancer in 2007: results of an incidence-based model. Arch Dermatol 2010; 146(3):279-282.*). The early detection of skin cancer is crucial, the  estimated 5-year survival rate for patients whose melanoma is detected early is about 98 percent in the U.S. The survival rate falls to 62 percent when the disease reaches the lymph nodes, and 18 percent when the disease metastasizes to distant organs(*Cancer Facts and Figures 2017. American Cancer Society.  http://www.cancer.org/acs/groups/content/@editorial/documents/document/acspc-048738.pdf. Accessed January 10, 2017.*). According to a recent report from the World Bank(*World development report 2016 digital dividends. http://documents.worldbank.org/curated/en/896971468194972881/pdf/102725-PUB-Replacement-PUBLIC.pdf*), "The poorest households are more likely to have access to mobile phones than to toilets or clean water,". An smart phone app that detects skin cancer could potentially reach people that don't have easy access to health-care services. 
+
 ## Installation steps:
 
 Install TensorFlow([instructions](https://www.tensorflow.org/install/)). If a GPU is available is highly advised to install the GPU version of TensorFlow and use it during the training of the neural network. The dataset we will be using is heavy and the time to train it can be highly reduce with the usage of a GPU supported by TensorFlow.
