@@ -1,6 +1,6 @@
 ## Installation steps:
 
-Install TensorFlow[instructions](https://www.tensorflow.org/install/). If a GPU is available is highly advised to install the GPU version of TensorFlow and use it during the training of the neural network. The dataset we will be using is heavy and the time to train it can be highly reduce with the usage of a GPU supported by TensorFlow.
+Install TensorFlow([instructions](https://www.tensorflow.org/install/)). If a GPU is available is highly advised to install the GPU version of TensorFlow and use it during the training of the neural network. The dataset we will be using is heavy and the time to train it can be highly reduce with the usage of a GPU supported by TensorFlow.
 
 Download the dataset from [ISIC Archive](https://isic-archive.com/). As some problems were found during downloading it, as the size its big and it's not possible to resume the download with a web browser, I used [this tool](https://github.com/vgupta-ai/ISIC-Dataset-Downloader) that is written in Python and allows resuming of the download, with a small modification as it was downloading only the first part of the images, please use the version provided in this repository, inside dataset folder. In case it fails will continue from the last image. I am not the author of the script, credits to vgupta-ai GitHub user.
 
